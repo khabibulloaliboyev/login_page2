@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Condensed:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Login</title>
+  </head>
+
+  <body>
+    <!-- Main -->
+    <main class="main">
+      <div class="main-container container">
+        <div class="left"></div>
+        <div class="right">
+          <form action="https://echo.htmlacademy.ru" method="GET">
+            <p>Welcome</p>
+            <h1>Login to you account</h1>
+            <label for="email">Emeil</label> <br />
+            <input
+              class="input-link"
+              id="email"
+              type="email"
+              placeholder="your mail"
+              name="Emeil"
+              required
+            />
+            <br />
+            <label for="password">Password</label> <br />
+            <input
+              class="input-link"
+              id="password"
+              type="password"
+              placeholder="your password"
+              name="Password"
+              required
+            />
+            <br />
+
+            <div class="warning">
+              <div>
+                <input type="checkbox" id="checkbox" />
+                <label for="checkbox">Remember me</label>
+              </div>
+              <a href="./index.html">Forgot Password?</a>
+            </div>
+            <button>Login now</button>
+            <button class="sig-in">
+              <img
+                src="./images/Без_названия__1_-removebg-preview.png"
+                alt=""
+              />Or sig-in with gooogle
+            </button>
+          </form>
+          <p>Dont have an account? <a href="">Join free today</a></p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
